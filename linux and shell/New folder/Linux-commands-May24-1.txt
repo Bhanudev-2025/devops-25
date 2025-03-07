@@ -1,0 +1,156 @@
+ls ---> used to list files and dirs
+
+ls -l  --> list files and dirs with long format
+
+touch test1 ---> used to create empty file
+
+ls -lt ---> recently created files will be displayed at begining
+
+ls -lrt --> recently created files will be displayed at the end
+
+pwd ---> present working directory
+
+---------------------------------------------------------------------------------------
+
+mkdir dirname ----> create dir
+
+cd dirname ----> change directory
+
+cd dir/dir2/
+
+cd ..  --> used to come out of directory
+
+cd ../../.. ---> 
+
+mkdir -p temp1/temp2/temp3   ---> create complete directory structure 
+---------------------------------------------------------------------------------
+cat filename ---> used to check content of a file
+========================================================================================
+vi is used to edit file 
+
+vi filename
+
+esc --> i ---> insert 
+
+esc --> :wq! ---> save content of a file (write and quit )
+
+esc ---> :q! --> quit without saving content 
+
+how do replace aprticular string or word in a file?
+
+esc :%s/current-string/new-string/g
+esc :%s/linux/windows/g
+-------------------------------------------------------
+
+Need to replace only in 4th line
+
+esc:4s/linux/windows/g
+---------------------------------------------------------
+need to replace from 2nd to 4th line
+esc:2,4s/linux/windows/g
+
+-----------------------------------------------------------------
+
+how do you replace from 2nd line to end of a file 
+
+esc:2,$s/linux/windows/g
+----------------------------------------------------------------
+how do set line numbers 
+
+esc : set nu --> set line numbers
+
+esc : set nonu ---> remove line number
+
+--------------------------------------------------
+need to move cursor to particular line
+
+esc :line_number
+esc : 4 ---> cursor will move to 4th line
+
+----------------------------------------------------------------------------- 
+
+delete particular line in vi 
+
+esc press dd
+---------------------------------------------------------------------
+==========================================================================================
+cp is used to copy file
+
+cp file1 file2  ----> file1 will be copied to file2
+-------------------------------------------------------------------------
+
+cp test1 temp1/temp2/temp3/
+----------------------------------------------------------------------
+copy dir to another dir
+
+cp -r dir1 dir2
+----------------------------------------------------------------------
+ cp test1 file1 test3 temp  ---> copy multiple files or dirs to another dir
+---------------------------------------------------------------------------------
+
+how do rename file or dir?
+
+mv file1 file2
+--------------------------------------------------------
+mv file1 dir2
+-------------------------------------------------------
+mv file1 file2 file3 dir1  ---> move multiple files to directory
+
+
+install tree command 
+sudo yum install tree
+----------------------------------------------------------------------------
+rwxr-xr--
+7   5  4
+
+chmod is used to change permission of a file or dir
+
+chmod 777 filename
+---------------------------------------------------------------------
+
+chmod -R 777 dir
+
+all subdirectories and files permission will be changed to 777
+
+---------------------------------------------------------
+u--> user, g--> group and o--> others
+
+chmod u+rwx filename
+
+--------------------------------------------------------------------------------------- 
+
+chown --> used change ownership of a file or a dir
+
+chmod newowner filename
+---------------------------------------------
+if new onwer belongs to different group 
+
+chmod newonwer:groupname filename 
+
+------------------------------------------------------------------------------------
+df -h . ----> used to check disk size
+
+. indicates present disk
+-------------------------------------------------------------
+du -sh filename (disk usage)
+
+used to check size of a file 
+
+du -sh *  ---> all files and dirs size in present directory
+
+------------------------------------------------------------------- 
+echo "hi how r u"  is used to print 
+
+ echo -e "hi\nhow r u"
+----------------------------------------------------------------------------
+> (redirect)
+
+used to store output of a command to file
+
+ls -lrt > log
+---------------------------------------------------------------------------
+>> (append)
+used to attach output of a command to end of a file 
+
+echo "this is linux class" >> log
+===============================================================
