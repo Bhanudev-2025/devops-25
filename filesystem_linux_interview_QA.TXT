@@ -1,0 +1,51 @@
+1. Filesystem Basics
+1. What is the command to create an empty file?
+● touch filename
+2. How do you create a new directory?
+● mkdir directory_name
+3. How do you list all files in a directory?
+● ls
+4. How do you list all files, including hidden ones?
+● ls -a
+5. How do you display the current working directory?
+● pwd
+6. How do you move or rename a file?
+● mv source_file destination_file
+7. How do you copy a file?
+● cp source_file destination_file
+8. What command is used to delete a file?
+● rm filename
+9. How do you delete a directory and its contents?
+● rm -r directory_name
+10. How do you display the contents of a file?
+● cat filename
+11. How do you display the first 10 lines of a file?
+● head filename
+12. How do you display the last 10 lines of a file?
+● tail filename
+13. How do you check free disk space?
+● df -h
+14. How do you display disk usage of a directory?
+● du -sh directory_name
+15. How do you search for a file by name in a directory?
+● find /path/to/directory -name filename
+16. How do you compress a file using gzip?
+● gzip filename
+17. How do you decompress a gzip file?
+● gunzip filename.gz
+18. How do you archive multiple files using tar?
+● tar -czvf archive.tar.gz files
+19. How do you extract a tar.gz archive?
+● tar -xzvf archive.tar.gz
+20. How do you mount a filesystem?
+● mount device_name mount_point
+21. How do you unmount a filesystem?
+● umount mount_point
+22. How do you create a symbolic link?
+● ln -s target_file link_name
+23. How do you view file types in a directory?
+● file filename
+24. How do you remove an empty directory?
+● rmdir directory_name
+25. How do you check for file existence?
+● test -f filename
