@@ -1,0 +1,6 @@
+total 16
+-rw-rw-r-- 1 ubuntu ubuntu   12 Mar  6 09:54 README.md
+-rw-rw-r-- 1 ubuntu ubuntu 4064 Mar  6 10:26 gitnotes.txt
+-rw-rw-r-- 1 ubuntu ubuntu 2270 Mar  7 11:26 shell_interview_qa.txt
+-rw-rw-r-- 1 ubuntu ubuntu  311 Mar  7 11:51 file2.txt
+-rw-rw-r-- 1 ubuntu ubuntu    0 Mar  7 11:55 listing_2025-03-07_11-55-38.txt
