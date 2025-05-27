@@ -1,0 +1,7 @@
+this is to test redirect
+this is to test append
+Git is a distributed version control system used for tracking changes in source code during software development.
+
+Remote Repository:
+
+A remote repository is a Git repository hosted on a remote server or a code hosting platform like GitHub, GitLab, or Bitbucket.
